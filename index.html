@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vyyxz Café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="/asset/style/styles.css" />
+    <script src="/asset/js/jquery-3.7.1.slim.min.js"></script>
+    <script src="/asset/js/main.js"></script>
+    <link
+    rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <p>Vyyxz</p>
+        </div>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-image"></div>
+        <div class="hero-content">
+          <h1>Satu Cangkir Kopi, Seribu Inspirasi</h1>
+          <p>
+            Rasakan sentuhan kopi premium di setiap tegukan, hanya di Vyyxz Café
+          </p>
+          <a class="btn" href="#menu">Order Now</a>
+        </div>
+      </section>
+      <div class="content">
+        <aside>
+          <img src="/asset/img/logo.png" class="img-logo-aside" />
+        </aside>
+        <div class="placemasi">
+          <!-- menu -->
+          <article id="menu" class="fill">
+            <h2 class="article-title">Our Menu</h2>
+            <div class="menu-category">
+              <p class="title-category d">Drink</p>
+              <div class="menu-plc-card" id="drink-menu"></div>
+            </div>
+  
+            <div class="menu-category m">
+              <p class="title-category f">food</p>
+              <div class="menu-plc-card" id="food-menu">
+              </div>
+            </div>
+          </article>
+  
+          <!-- information cafe -->
+          <article id="about" class="fill">
+            <h2 class="article-title">Information Café</h2>
+            <div class="info-container">
+              <div class="location-info">
+                <h3 class="title-information">Location</h3>
+                <div class="cafe-details">
+                  <h4>Vyyxz Café</h4>
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i> Jalan Kopi Indah No. 12,
+                    Jakarta Selatan
+                  </p>
+                  <p><i class="fas fa-phone"></i> 0812-3456-7890</p>
+                  <a
+                    href="https://maps.google.com/?q=-6.2088,106.8456"
+                    class="maps-btn"
+                    target="_blank">
+                    <i class="fas fa-map-marked-alt"></i> Buka di Google Maps
+                  </a>
+                </div>
+              </div>
+  
+              <div class="operation-info">
+                <h3 class="title-information opr">Jam Operasional</h3>
+                <div class="schedule">
+                  <div class="schedule-item">
+                    <h4>Hari Biasa</h4>
+                    <p>08.00 - 22.00</p>
+                  </div>
+                  <div class="schedule-item">
+                    <h4>Akhir Pekan</h4>
+                    <p>07.00 - 23.00</p>
+                  </div>
+                  <p class="schedule-tagline">
+                    Nikmati kopi pagi atau hangout malam, kami siap melayani!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+  
+          <!-- Event & Workshop -->
+          <article class="fill">
+            <h2 class="article-title">Event & Workshop</h2>
+            <div class="event-container">
+              <div class="event-card">
+                <h3>Workshop Latte Art</h3>
+                <div class="event-details">
+                  <p><i class="fas fa-calendar"></i> 12 Januari 2024</p>
+                  <p><i class="fas fa-clock"></i> 10.00 - 12.00 WIB</p>
+                  <p>
+                    <i class="fas fa-tag"></i> Rp 200.000 (termasuk alat dan
+                    bahan)
+                  </p>
+                  <div class="event-desc">
+                    <i class="fas fa-info-circle"></i> Belajar bikin latte art
+                    keren langsung dari barista profesional kami. Tempat terbatas!
+                  </div>
+                  <div class="event-plc-btn">
+                    <a href="#" class="event-btn">Daftar Sekarang</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="event-card">
+                <h3>Live Music Night</h3>
+                <div class="event-details">
+                  <p><i class="fas fa-calendar"></i> 20 Januari 2024</p>
+                  <p><i class="fas fa-clock"></i> 19.00 - 21.00 WIB</p>
+                  <p>
+                    <i class="fas fa-tag"></i> Gratis (dengan pembelian minuman)
+                  </p>
+                  <div class="event-desc">
+                    <i class="fas fa-info-circle"></i> Nikmati malam santai
+                    ditemani musik akustik lokal terbaik.
+                  </div>
+                  <div class="event-plc-btn">
+                    <a href="#" class="event-btn">Daftar Sekarang</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="event-card">
+                <h3>Coffee Tasting</h3>
+                <div class="event-details">
+                  <p><i class="fas fa-calendar"></i> 5 Februari 2024</p>
+                  <p><i class="fas fa-clock"></i> 14.00 - 16.00 WIB</p>
+                  <p><i class="fas fa-tag"></i> Rp 100.000</p>
+                  <div class="event-desc">
+                    <i class="fas fa-info-circle"></i> Rasakan berbagai jenis kopi
+                    dari seluruh dunia bersama para pecinta kopi lainnya.
+                  </div>
+                  <div class="event-plc-btn">
+                    <a href="#" class="event-btn">Daftar Sekarang</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer id="contact">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Jl. Kopi Nikmat No. 123, Jakarta</p>
+          <p>Email: vyyxzcafe@gmail.com</p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <a
+            class="sosmed-fill"
+            href="https://www.instagram.com/sykrn_rffii/profilecard/?igsh=eDhudHRjeTRoc2Q=">
+            <i class="fa-brands fa-instagram sosmed-icon"></i>
+            <p class="sosmed-name">@sykrn_rffii</p>
+          </a>
+          <a
+            class="sosmed-fill"
+            href="https://www.tiktok.com/@vyyxzzt_?_t=ZS-8sMtmCdWAUi&_r=1">
+            <i class="fa-brands fa-tiktok sosmed-icon"></i>
+            <p class="sosmed-name">@vyyxzzt</p>
+          </a>
+          <a class="sosmed-fill" href="https://github.com/sraffiansyah">
+            <i class="fa-brands fa-github sosmed-icon"></i>
+            <p class="sosmed-name">sraffiansyah</p>
+          </a>
+          <a
+            class="sosmed-fill"
+            href="https://discordapp.com/users/804848173654474772">
+            <i class="fa-brands fa-discord sosmed-icon"></i>
+            <p class="sosmed-name">Vyyxz</p>
+          </a>
+        </div>
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email" class="email" />
+            <button class="btn-footer">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Vyyxz Café. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
