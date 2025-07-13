@@ -12,7 +12,7 @@ $(document).ready(function () {
       imageClass: "mid2",
       description:
         "Teh hijau matcha pilihan dipadukan dengan susu creamy. Kaya rasa, lembut, dan menenangkan.",
-      price: 28000,
+      price: 28000, 
     },
     {
       name: "Kopi Vyyxz Bliss",
